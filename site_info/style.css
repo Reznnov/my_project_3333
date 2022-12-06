@@ -1,0 +1,39 @@
+hr {
+    border: none; /* Убираем границу */
+    background-color: black; /* Цвет линии */
+    color: black; /* Цвет линии для IE6-7 */
+    height: 2px; /* Толщина линии */
+   }
+
+.cs {
+    border:2px solid #555; 
+    box-shadow:3px 3px 5px #999; 
+    width: 200px; text-align:center;  
+    margin:20px; 
+    padding:20px;
+    color: whitesmoke;
+   }
+
+.main-nav {
+    background: #222;
+    height: calc(100% - (-99px));
+    margin-top: -10px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.9rem;
+    max-width: 1100px;
+    margin: 2rem auto -6rem;
+    margin-top: -500px;
+}
+.spiski {
+    height: 70px;
+}
+.color {
+    color: black;
+}
